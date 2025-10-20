@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { Mail, Phone, MapPin, Linkedin, Github, } from "lucide-react"
 import { FaWhatsapp } from "react-icons/fa"
-import { SiTiktok } from "react-icons/si"
 import { ContactForm } from "../ContactForm"
 import { siteData } from "@/data/site"
 
@@ -74,16 +73,6 @@ export function Contact() {
                 aria-label="WhatsApp"
               >
                 <FaWhatsapp size={18} />
-              </a>
-
-              <a
-                href={siteData.social.tiktok}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[#1a1d29] border border-white/10 flex items-center justify-center text-[#e0e6f0] hover:border-[#ff0050] hover:text-[#ff0050] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ff0050]"
-                aria-label="TikTok"
-              >
-                <SiTiktok size={18} />
               </a>
             </div>
           </div>

@@ -19,7 +19,6 @@ const socialIcons = {
   linkedin: Linkedin,
   github: Github,
   whatsapp: MessageCircle,
-  tiktok: Music,
 }
 
 export function Header() {

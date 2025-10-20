@@ -9,8 +9,7 @@ import { Linkedin, Github, MessageCircle, Music, Mail, Phone } from "lucide-reac
 const socialIcons = {
   linkedin: Linkedin,
   github: Github,
-  whatsapp: MessageCircle,
-  tiktok: Music,
+  whatsapp: MessageCircle
 }
 
 export function Contact() {

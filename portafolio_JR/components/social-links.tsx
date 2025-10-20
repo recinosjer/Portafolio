@@ -7,8 +7,7 @@ import { siteData } from "@/data/site"
 const socialIcons = {
   linkedin: { Icon: Linkedin, label: "LinkedIn" },
   github: { Icon: Github, label: "GitHub" },
-  whatsapp: { Icon: MessageCircle, label: "WhatsApp" },
-  tiktok: { Icon: Music, label: "TikTok" },
+  whatsapp: { Icon: MessageCircle, label: "WhatsApp" }
 }
 
 export function SocialLinks() {

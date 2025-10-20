@@ -6,7 +6,6 @@ import Image from "next/image"
 import { siteData } from "@/data/site"
 import { Linkedin, Github, } from "lucide-react"
 import { FaWhatsapp } from "react-icons/fa"
-import { SiTiktok } from "react-icons/si"
 
 export function Hero() {
   return (
@@ -55,7 +54,6 @@ export function Hero() {
               priority
             />
           </div>
-
           {/* Redes sociales */}
           <div className="flex gap-5 mt-2">
             <a
@@ -70,7 +68,6 @@ export function Hero() {
             >
               <Linkedin size={20} />
             </a>
-
             <a
               href={siteData.social.github}
               target="_blank"
@@ -83,7 +80,6 @@ export function Hero() {
             >
               <Github size={20} />
             </a>
-
             <a
               href={siteData.social.whatsapp}
               target="_blank"
@@ -95,19 +91,6 @@ export function Hero() {
               focus-visible:ring-2 focus-visible:ring-[#25D366]"
             >
               <FaWhatsapp size={18} />
-            </a>
-
-            <a
-              href={siteData.social.tiktok}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="TikTok"
-              className="w-10 h-10 rounded-full bg-[#1a1d29] border border-white/10 
-              flex items-center justify-center text-[#e0e6f0] hover:border-[#ff0050] 
-              hover:text-[#ff0050] transition-colors focus-visible:outline-none 
-              focus-visible:ring-2 focus-visible:ring-[#ff0050]"
-            >
-              <SiTiktok size={18} />
             </a>
           </div>
         </motion.div>

@@ -8,8 +8,7 @@ export function Sidebar() {
   const socialIcons = {
     linkedin: Linkedin,
     github: Github,
-    whatsapp: MessageCircle,
-    tiktok: Music,
+    whatsapp: MessageCircle
   }
 
   return (
