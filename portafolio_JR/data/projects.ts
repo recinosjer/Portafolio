@@ -30,4 +30,15 @@ export const projects: Project[] = [
     demoUrl: "https://edietinglab.eu/es/",
     period: "Septiembre 2023 - Marzo 2024",
   },
+  {
+    id: "ocr-recognition",
+    title: "OCR Text Recognition",
+    description:
+      "Desarrollé un sistema OCR capaz de reconocer texto en imágenes, identificando letras, números y cadenas de caracteres, tanto en mayúsculas como en minúsculas. El proyecto utiliza redes neuronales (CNN ) para procesar y convertir texto manuscrito en formato digital. Además, implementé técnicas de preprocesamiento de imágenes con OpenCV para mejorar la precisión del modelo durante el entrenamiento con el dataset IAM.",
+    stack: ["Python", "TensorFlow", "Keras", "OpenCV", "NumPy"],
+    image: "/ocr.png",
+    demoUrl: "https://github.com/recinosjer/IA",
+    period: "Septiembre 2024 - Octubre 2024",
+  },
+
 ]
