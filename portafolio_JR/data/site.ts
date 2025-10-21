@@ -1,7 +1,7 @@
 export const siteData = {
   name: "José Recinos",
   fullName: "José Manuel Recinos Martínez",
-  title: "Ingeniero en Sistemas y Desarrollador Web",
+  title: "Ingeniero en Informática y Desarrollador",
   bio: "Me apasiona crear soluciones digitales intuitivas, escalables y centradas en la experiencia del usuario.",
   email: "josemanuelrecinos@gmail.com",
   phone: "(+34) 613455211",
