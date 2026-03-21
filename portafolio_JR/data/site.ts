@@ -3,7 +3,7 @@ export const siteData = {
   fullName: "José Manuel Recinos Martínez",
   title: "Ingeniero en Informática y Desarrollador",
   bio: "Me apasiona crear soluciones digitales intuitivas, escalables y centradas en la experiencia del usuario.",
-  email: "josemanuelrecinos@gmail.com",
+  email: "info@recinos.dev",
   phone: "(+34) 613455211",
   location: "Santander, España",
   cvUrl: "/CV_JoseRecinos_.pdf",
